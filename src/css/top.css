@@ -1,0 +1,38 @@
+@charset "UTF-8";
+#top {
+  height: 32px;
+  width: 100%;
+  background: #eee;
+}
+#top .top_nav {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  line-height: 32px;
+  color: #999;
+  font-size: 12px;
+}
+#top .top_nav ._navleft {
+  float: left;
+}
+#top .top_nav ._navleft span {
+  margin: 0 20px 0 0;
+}
+#top .top_nav ._navright {
+  float: right;
+}
+#top .top_nav ._navright span {
+  margin: 0 0 0 20px;
+}
+#top a {
+  color: #999;
+}
+span {
+  cursor: pointer;
+}
+.sp1:hover {
+  color: #999;
+}
+span:hover {
+  color: #ee3948;
+}

@@ -1,0 +1,183 @@
+@charset "UTF-8";
+#header {
+  width: 100%;
+  height: 97px;
+  margin-bottom: 20px;
+}
+#header .header_main {
+  width: 1200px;
+  height: 97px;
+  margin: 0 auto;
+}
+#header .header_main .logo {
+  float: left;
+  margin-top: 30px;
+}
+#header .header_main .logo img {
+  width: 216px;
+  height: 60px;
+}
+#header .header_main .search {
+  height: 60px;
+  padding-left: 154px;
+  float: left;
+  margin: 37px 0 0;
+}
+#header .header_main .search .search_inp {
+  width: 510px;
+  border: 1px solid #ee394b;
+  height: 34px;
+  position: relative;
+  z-index: 3000;
+  float: left;
+}
+#header .header_main .search .search_inp .text {
+  width: 400px;
+  border: 0;
+  background: #fff;
+  font-size: 12px;
+  padding-left: 10px;
+  color: #999;
+  height: 14px;
+  line-height: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: 0;
+  float: left;
+}
+#header .header_main .search .search_inp .btn {
+  width: 100px;
+  color: #fff;
+  border: 0;
+  background: #eb3b4a;
+  font-size: 20px;
+  height: 34px;
+  margin: 0;
+  float: right;
+  outline: 0;
+}
+#header .header_main .search .search_nav {
+  width: 518px;
+  height: 24px;
+  color: #c7c7c7;
+  margin-left: -8px;
+}
+#header .header_main .search .search_nav li {
+  float: left;
+  height: 24px;
+}
+#header .header_main .search .search_nav li a {
+  font-size: 12px;
+  padding: 0 10px;
+  line-height: 24px;
+  border-right: 1px solid #c7c7c7;
+}
+#header .header_main .search .search_nav li a:hover {
+  color: #ee394b;
+}
+#header .header_main .header_right {
+  width: 209px;
+  height: 50px;
+  float: right;
+  margin-top: 30px;
+}
+#header .header_main .header_right ul {
+  position: relative;
+}
+#header .header_main .header_right ul li {
+  width: 160px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#header .header_main .header_right ul li a {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+#header .header_main .header_right ul li a img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+#header .header_main .header_right ul li p {
+  float: left;
+}
+#header .header_main .header_right ul li p b {
+  width: 100px;
+  height: 20px;
+  color: #999;
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+}
+#header .header_main .header_right ul li p span {
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  color: #666;
+  font-size: 12px;
+  line-height: 20px;
+}
+#header .header_main .header_right ul .top1 {
+  display: none;
+}
+#header .header_main .arrow {
+  float: right;
+  margin: -19px 0 0 10px;
+  width: 39px;
+  height: 19px;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  text-align: center;
+  background: url(../img/arrow2.gif) no-repeat;
+  cursor: pointer;
+}
+#header .header_main .arrow .arrow_left {
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
+}
+#header .header_main .arrow .arrow_right {
+  width: 20px;
+  height: 20px;
+}
+#header .progressBar {
+  width: 386px;
+  float: right;
+  display: inline;
+}
+#header .progressBar .step_txtList {
+  padding-top: 25px;
+  color: #999;
+}
+#header .progressBar .step_txtList > li {
+  float: left;
+  width: 96px;
+  text-align: center;
+  font-size: 14px;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+#header .progressBar .step_1 li:nth-child(1) {
+  color: #ff7b7e;
+  font-size: 15px;
+}
+#header .progressBar .stepBar {
+  margin-top: 10px;
+  background-image: url(../img/def_grey_step.png);
+  background-repeat: no-repeat;
+  height: 30px;
+  position: relative;
+  z-index: 0;
+}
+#header .progressBar .stepBar .nonceStep {
+  height: 30px;
+  background-image: url(../img/sel_red_step.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  width: 25%;
+}

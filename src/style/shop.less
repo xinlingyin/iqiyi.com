@@ -1,0 +1,245 @@
+@charset "UTF-8";
+// 今日特卖
+#shop {
+    width: 1200px;
+    height: 3150px;
+    margin: 0 auto;
+    padding: 25px 0 0;
+    #show_title {
+        height: 45px;
+        margin: 10px 0;
+        .new_left {
+            width: 1200px;
+            height: 36px;
+            // float: left;
+            .sapn2 {
+                font-size: 28px;
+                color: #333;
+                margin: 0 10px;
+            }
+            .sapn3 {
+                color: #c2c2c2;
+                margin: 0 0 4px;
+                padding: 0 10px;
+                font-size: 16px;
+                border-left: 1px solid #c2c2c2;
+            }
+        }
+    }
+    #show_left {
+        width: 840px;
+        float: left;
+        .shop_list {
+            .shop_ti {
+                width: 100%;
+                border: 1px solid #e5e5e5;
+                margin-bottom: 10px;
+                height: 292px;
+                display: block;
+                box-sizing: border-box;
+            }
+            .list_title {
+                width: 258px;
+                float: left;
+                .p1 {
+                    width: 240px;
+                    height: 24px;
+                    font-size: 24px;
+                    line-height: 24px;
+                    text-align: center;
+                    margin: 117px auto 0;
+                    a {
+                        color: #333;
+                    }
+                }
+                .p2 {
+                    text-align: center;
+                    font-size: 18px;
+                    line-height: 18px;
+                    margin-top: 14px;
+                    height: 14px;
+                    padding: 0 10px;
+                    a {
+                        color: #777;
+                    }
+                    a:hover {
+                        color: red;
+                    }
+                }
+            }
+            .shop_img {
+                width: 580px;
+                height: 100%;
+                float: left;
+                img {
+                    width: 100%;
+                    transition: opacity 500ms ease-out;
+                }
+            }
+        }
+        li:hover img {
+            opacity: 0.6;
+        }
+    }
+    #show_right {
+        float: right;
+        width: 340px;
+        // height: 1000px;
+        // border: 1px solid #e5e5e5;
+        margin-bottom: 20px;
+        .hot_list {
+            width: 100%;
+            background: url(http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/nav_tint_redbg.png) no-repeat;
+            height: 50px;
+            line-height: 50px;
+            h1 {
+                font-size: 21px;
+                color: #333;
+            }
+        }
+    }
+    .hotlist {
+        width: 100%;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        border-top: 0;
+        box-sizing: border-box;
+        li {
+            width: 100%;
+            height: 110px;
+            .list_img {
+                width: 130px;
+                height: 110px;
+                float: left;
+                overflow: hidden;
+                a {
+                    color: #777;
+                    img {
+                        width: 90px;
+                        height: 90px;
+                        margin: 10px;
+                        transition: all 500ms ease;
+                    }
+                    img:hover {
+                        transform: scale(1.1, 1.1);
+                    }
+                }
+            }
+            .shopinfo {
+                float: left;
+                border-bottom: 1px solid #e5e5e5;
+                box-sizing: border-box;
+                position: relative;
+                height: 110px;
+                width: 200px;
+                .first {
+                    width: 57px;
+                    height: 20px;
+                    margin-top: 14px;
+                    margin-bottom: 10px;
+                    background: url(../img/hot-1.jpg) no-repeat;
+                }
+                .shoptitle {
+                    width: 100%;
+                    font-size: 14px;
+                    color: #333;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    line-height: 14px;
+                    // border: 1px solid #e5e5e5;
+                    border-bottom: none;
+                }
+                .shopnum {
+                    width: 100%;
+                    position: absolute;
+                    bottom: 10px;
+                    left: 0;
+                    height: 18px;
+                    line-height: 18px;
+                    .num1 {
+                        // width: 30px;
+                        height: 18px;
+                        font-size: 18px;
+                        color: #ee394b;
+                        display: block;
+                        float: left;
+                    }
+                    .num2 {
+                        // width: 30px;
+                        height: 18px;
+                        font-size: 12px;
+                        color: #999;
+                        float: right;
+                        display: block;
+                        em {
+                            color: #ee394b;
+                            padding-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #right_tj {
+        float: right;
+        width: 340px;
+        // height: 1000px;
+        border: 1px solid #e5e5e5;
+        margin-bottom: 20px;
+        .hot_title {
+            width: 100%;
+            background: url(http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/nav_tint_redbg.png) no-repeat;
+            height: 50px;
+            line-height: 50px;
+            h1 {
+                font-size: 21px;
+                color: #333;
+            }
+        }
+        .hot_tj {
+            width: 100%;
+            background: #fff;
+            // border: 1px solid #e5e5e5;
+            border-top: 0;
+            box-sizing: border-box;
+            li {
+                width: 340px;
+                height: 230px;
+                .hot_img {
+                    width: 100%;
+                    height: 180px;
+                    img {
+                        width: 320px;
+                        height: 160px;
+                        padding-left: 10px;
+                        padding-top: 10px;
+                    }
+                }
+            }
+            .goodtitle {
+                font-size: 14px;
+                color: #333;
+                line-height: 14px;
+                margin-bottom: 8px;
+                margin-left: 10px;
+                margin-right: 10px;
+                height: 14px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .gooddes {
+                font-size: 12px;
+                color: #999;
+                line-height: 12px;
+                margin-left: 10px;
+                margin-right: 10px;
+                height: 12px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}

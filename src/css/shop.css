@@ -1,0 +1,234 @@
+@charset "UTF-8";
+#shop {
+  width: 1200px;
+  height: 3150px;
+  margin: 0 auto;
+  padding: 25px 0 0;
+}
+#shop #show_title {
+  height: 45px;
+  margin: 10px 0;
+}
+#shop #show_title .new_left {
+  width: 1200px;
+  height: 36px;
+}
+#shop #show_title .new_left .sapn2 {
+  font-size: 28px;
+  color: #333;
+  margin: 0 10px;
+}
+#shop #show_title .new_left .sapn3 {
+  color: #c2c2c2;
+  margin: 0 0 4px;
+  padding: 0 10px;
+  font-size: 16px;
+  border-left: 1px solid #c2c2c2;
+}
+#shop #show_left {
+  width: 840px;
+  float: left;
+}
+#shop #show_left .shop_list .shop_ti {
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+  height: 292px;
+  display: block;
+  box-sizing: border-box;
+}
+#shop #show_left .shop_list .list_title {
+  width: 258px;
+  float: left;
+}
+#shop #show_left .shop_list .list_title .p1 {
+  width: 240px;
+  height: 24px;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  margin: 117px auto 0;
+}
+#shop #show_left .shop_list .list_title .p1 a {
+  color: #333;
+}
+#shop #show_left .shop_list .list_title .p2 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 14px;
+  height: 14px;
+  padding: 0 10px;
+}
+#shop #show_left .shop_list .list_title .p2 a {
+  color: #777;
+}
+#shop #show_left .shop_list .list_title .p2 a:hover {
+  color: red;
+}
+#shop #show_left .shop_list .shop_img {
+  width: 580px;
+  height: 100%;
+  float: left;
+}
+#shop #show_left .shop_list .shop_img img {
+  width: 100%;
+  transition: opacity 500ms ease-out;
+}
+#shop #show_left li:hover img {
+  opacity: 0.6;
+}
+#shop #show_right {
+  float: right;
+  width: 340px;
+  margin-bottom: 20px;
+}
+#shop #show_right .hot_list {
+  width: 100%;
+  background: url(http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/nav_tint_redbg.png) no-repeat;
+  height: 50px;
+  line-height: 50px;
+}
+#shop #show_right .hot_list h1 {
+  font-size: 21px;
+  color: #333;
+}
+#shop .hotlist {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-top: 0;
+  box-sizing: border-box;
+}
+#shop .hotlist li {
+  width: 100%;
+  height: 110px;
+}
+#shop .hotlist li .list_img {
+  width: 130px;
+  height: 110px;
+  float: left;
+  overflow: hidden;
+}
+#shop .hotlist li .list_img a {
+  color: #777;
+}
+#shop .hotlist li .list_img a img {
+  width: 90px;
+  height: 90px;
+  margin: 10px;
+  transition: all 500ms ease;
+}
+#shop .hotlist li .list_img a img:hover {
+  transform: scale(1.1, 1.1);
+}
+#shop .hotlist li .shopinfo {
+  float: left;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  position: relative;
+  height: 110px;
+  width: 200px;
+}
+#shop .hotlist li .shopinfo .first {
+  width: 57px;
+  height: 20px;
+  margin-top: 14px;
+  margin-bottom: 10px;
+  background: url(../img/hot-1.jpg) no-repeat;
+}
+#shop .hotlist li .shopinfo .shoptitle {
+  width: 100%;
+  font-size: 14px;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 14px;
+  border-bottom: none;
+}
+#shop .hotlist li .shopinfo .shopnum {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  height: 18px;
+  line-height: 18px;
+}
+#shop .hotlist li .shopinfo .shopnum .num1 {
+  height: 18px;
+  font-size: 18px;
+  color: #ee394b;
+  display: block;
+  float: left;
+}
+#shop .hotlist li .shopinfo .shopnum .num2 {
+  height: 18px;
+  font-size: 12px;
+  color: #999;
+  float: right;
+  display: block;
+}
+#shop .hotlist li .shopinfo .shopnum .num2 em {
+  color: #ee394b;
+  padding-left: 10px;
+}
+#shop #right_tj {
+  float: right;
+  width: 340px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+#shop #right_tj .hot_title {
+  width: 100%;
+  background: url(http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/nav_tint_redbg.png) no-repeat;
+  height: 50px;
+  line-height: 50px;
+}
+#shop #right_tj .hot_title h1 {
+  font-size: 21px;
+  color: #333;
+}
+#shop #right_tj .hot_tj {
+  width: 100%;
+  background: #fff;
+  border-top: 0;
+  box-sizing: border-box;
+}
+#shop #right_tj .hot_tj li {
+  width: 340px;
+  height: 230px;
+}
+#shop #right_tj .hot_tj li .hot_img {
+  width: 100%;
+  height: 180px;
+}
+#shop #right_tj .hot_tj li .hot_img img {
+  width: 320px;
+  height: 160px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+#shop #right_tj .hot_tj .goodtitle {
+  font-size: 14px;
+  color: #333;
+  line-height: 14px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#shop #right_tj .hot_tj .gooddes {
+  font-size: 12px;
+  color: #999;
+  line-height: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

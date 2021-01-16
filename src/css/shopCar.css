@@ -1,0 +1,353 @@
+@charset "UTF-8";
+#shopCar {
+  background: #fafafa;
+  border-top: 1px solid #e7e7e7;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+#shopCar > .main {
+  border: 1px solid #e7e7e7;
+  background: #fff;
+  width: 938px;
+  margin: 0 auto;
+  padding: 20px;
+}
+#shopCar > .main .page-order {
+  width: 100%;
+  font-size: 12px;
+  line-height: 20px;
+}
+#shopCar > .main .page-order .mod-pageHeader {
+  height: 38px;
+  line-height: 35px;
+  border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 16px;
+  position: relative;
+}
+#shopCar > .main .page-order .mod-pageHeader .pageHeader_headline {
+  height: 98%;
+  margin-right: 36px;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  color: #3c3c3c;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  border-bottom: 2px solid #ee394b;
+}
+#shopCar > .main .page-order .myCar_tableHd {
+  table-layout: fixed;
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  border-collapse: collapse;
+  border: 1px solid #e7e7e7;
+  background: #f7f7f7;
+}
+#shopCar > .main .page-order .myCar_tableHd th.baobei,
+#shopCar > .main .page-order .myCar_tableHd th.price,
+#shopCar > .main .page-order .myCar_tableHd th.nub,
+#shopCar > .main .page-order .myCar_tableHd th.disbursements,
+#shopCar > .main .page-order .myCar_tableHd th.trade_operate {
+  font-size: 12px;
+}
+#shopCar > .main .page-order .myCar_tableHd th.baobei .select-all {
+  vertical-align: middle;
+  float: left;
+  font-size: 0;
+}
+#shopCar > .main .page-order .myCar_tableHd th.baobei .select-all .checkBox-order {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  position: relative;
+  vertical-align: baseline;
+}
+#shopCar > .main .page-order .myCar_tableHd th.baobei .select-all > .tx {
+  font-size: 12px;
+  vertical-align: baseline;
+  color: #3c3c3c;
+  font-family: Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+#shopCar > .main .page-order .myCar_tableHd .baobei {
+  width: 420px;
+}
+#shopCar > .main .page-order .myCar_tableBd {
+  margin-top: 20px;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr {
+  background: #fff7f7;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td {
+  padding: 10px 5px;
+  text-align: center;
+  border-top: 1px solid #e7e7e7;
+  vertical-align: middle;
+  font-size: 0;
+  overflow: hidden;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.select_td {
+  border-left: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.select_td > .select-all {
+  display: inline-block;
+  vertical-align: top;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.select_td > .select-all .checkBox-order {
+  margin-left: -8px;
+  margin-right: 0;
+  z-index: 10;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.baobei {
+  text-align: left;
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: 1px solid #e7e7e7;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.baobei .activity_pic {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  vertical-align: top;
+  float: left;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.baobei .orderItems_content {
+  overflow: hidden;
+  font-size: 12px;
+  position: relative;
+  height: 80px;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.baobei .orderItems_content .orderItems_link {
+  line-height: 14px;
+  height: 28px;
+  margin-bottom: 4px;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.baobei .orderItems_content .orderItems_link a {
+  color: #3c3c3c;
+  display: inline-block;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.baobei .orderItems_content .orderItems_about {
+  line-height: 14px;
+  color: #999;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.baobei .orderItems_content .orderItems_about .info_section {
+  max-height: 30px;
+  overflow: hidden;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.baobei .orderItems_content .orderItems_about .info_section span:hover {
+  color: #999;
+  cursor: default;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.baobei .orderItems_content .orderItems_about .info_section .tx-inline {
+  padding-right: 5px;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.price {
+  width: 101px;
+  margin-left: 0;
+  overflow: inherit;
+  vertical-align: top;
+  border-bottom: 1px solid #e7e7e7;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.price .price_inner {
+  width: 101px;
+  height: 20px;
+  line-height: 20px;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.price .price_inner .price-now {
+  color: #333;
+  font-size: 12px;
+  display: inline-block;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.nub {
+  font-size: 12px;
+  vertical-align: top;
+  text-align: right;
+  border-bottom: 1px solid #e7e7e7;
+  width: 132px;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.nub .nub_innItem {
+  display: inline-block;
+  background: #fff;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.nub .nub_innItem .mod-amount {
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.nub .nub_innItem .mod-amount .amount-input {
+  width: 58px;
+  height: 28px;
+  margin-right: 2px;
+  border: 1px solid #999;
+  text-align: center;
+  font-size: 12px;
+  color: #3c3c3c;
+  outline: 0;
+  vertical-align: top;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.nub .nub_innItem .mod-amount .amount-btn {
+  display: inline-block;
+  width: 20px;
+  height: 30px;
+  vertical-align: top;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.nub .nub_innItem .mod-amount .amount-btn .amount-increase {
+  background-position: -160px -22px;
+  margin-bottom: 2px;
+  float: left;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.nub .nub_innItem .mod-amount .amount-btn .amount-decrease {
+  background-position: -180px -66px;
+  cursor: default;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.nub .nub_innItem .mod-amount .amount-btn .amount-increase,
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.nub .nub_innItem .mod-amount .amount-btn .amount-decrease {
+  display: inline-block;
+  width: 20px;
+  height: 14px;
+  background-image: url(../img/detail_icon4.png);
+  background-repeat: no-repeat;
+  vertical-align: top;
+  cursor: pointer;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.disbursements {
+  border-bottom: 1px solid #e7e7e7;
+  vertical-align: top;
+  width: 162px;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.disbursements .sumItems_price {
+  font-size: 18px;
+  color: #ee394b;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.trade_operate {
+  border-right: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  vertical-align: top;
+  width: 92px;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.trade_operate a {
+  color: #333;
+  font-size: 12px;
+}
+#shopCar > .main .page-order .myCar_tableBd .myCar_bdTr > td.trade_operate a:hover {
+  color: #ee394b;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box {
+  height: 59px;
+  margin-top: 10px;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar {
+  width: 936px;
+  height: 58px;
+  background: #f7f7f7;
+  border: 1px solid #e7e7e7;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_operations {
+  width: 380px;
+  float: left;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_operations .orderSumBar_check {
+  width: 85px;
+  height: 100%;
+  float: left;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_operations .orderSumBar_check .orderSumBar_inner {
+  padding-top: 20px;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_operations .orderSumBar_check .orderSumBar_inner .select-all {
+  font-size: 0;
+  line-height: 20px;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_operations .orderSumBar_check .orderSumBar_inner .select-all .checkBox-order {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  position: relative;
+  vertical-align: middle;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_operations .orderSumBar_check .orderSumBar_inner .select-all .tx {
+  font-size: 12px;
+  vertical-align: middle;
+  color: #3c3c3c;
+  font-family: Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_operations .orderSumBar_btns {
+  overflow: hidden;
+  height: 100%;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_operations .orderSumBar_btns .orderSumBar_inner {
+  padding-top: 20px;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_operations .orderSumBar_btns .orderSumBar_inner > .btn-normal {
+  display: inline-block;
+  white-space: nowrap;
+  min-width: 48px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  margin: 5px;
+  color: #3c3c3c;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_operations .orderSumBar_btns .orderSumBar_inner > .btn-normal:hover {
+  color: #ee394b;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_clear {
+  width: 550px;
+  float: right;
+  text-align: right;
+  line-height: 58px;
+  font-family: Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+  position: relative;
+  z-index: 100;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_clear .amount-sum {
+  display: inline-block;
+  margin-right: 15px;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_clear .amount-sum .num {
+  color: #ee394b;
+  font-weight: 700;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_clear .price-sum {
+  display: inline-block;
+  margin-right: 15px;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_clear .price-sum > .tx {
+  margin-right: 5px;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_clear .price-sum > .price {
+  font-size: 18px;
+  color: #ee394b;
+  font-family: arial;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_clear .shop-submit {
+  display: inline-block;
+  margin-right: 10px;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_clear .shop-submit > .btn-submit {
+  display: inline-block;
+  width: 120px;
+  height: 38px;
+  background: #e7e7e7;
+  color: #666;
+  border-radius: 3px;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  cursor: default;
+  font-size: 18px;
+  line-height: 38px;
+  text-align: center;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_clear .shop-submit .active {
+  background-color: #ee394b;
+  color: #fff;
+}
+#shopCar > .main .page-order .mod-orderSumBar_box .mod-orderSumBar .orderSumBar_clear span:hover {
+  color: #3c3c3c;
+  cursor: default;
+}

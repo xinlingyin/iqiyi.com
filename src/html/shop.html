@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopCar</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/top.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/shopCar.css">
+
+    <script src="../js/shop.js" type="module"></script>
+
+</head>
+
+<body>
+    <div id="top">
+        <div class="top_nav">
+            <div class="_navleft">
+                <span class="sp1">欢迎<span class="admin" style="display: none; color: red; margin: 0 10px 0;"></span>来到爱奇艺商城
+
+                </span>
+                <span class="login"><a href="./login.html">请登陆</a></span>
+                <span class="login"><a href="./reg.html">注册</a></span>
+            </div>
+            <div class="_navright">
+                <a href="">购物车</a>
+                <span>买家中心</span>
+                <span>我的收藏</span>
+                <span>关注我们</span>
+                <span>商家中心</span>
+                <a href="./index.html">爱奇艺首页</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="header">
+        <div class="header_main">
+            <div class="logo">
+                <a href="#"><img src="../img/logo.png" alt=""></a>
+            </div>
+
+            <div class="progressBar clear">
+                <ul class="step_txtList  step_1 clear">
+                    <li class="c-3c">查看购物车</li>
+                    <li>确认订单信息</li>
+                    <li>买家付款</li>
+                    <li>交易成功</li>
+                </ul>
+
+                <div class="stepBar step_1">
+                    <div class="nonceStep"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="shopCar">
+        <div class="main">
+            <div class="page-order">
+                <div class="mod-pageHeader">
+                    <h1 class="pageHeader_headline">我的购物车</h1>
+                </div>
+
+                <div class="myCar">
+                    <div class="myCar_page">
+                        <table class="myCar_tableHd" width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <thead>
+                                <tr data-shopcart-type="all">
+                                    <th class="baobei">
+                                        <div class="select-all">
+                                            <div class="checkBox-order">
+                                                <input class="checkBox checkAll" type="checkbox" name="" value="false">
+                                                <label for="">勾选购物车内所有商品</label>
+                                            </div>
+                                            <span class="tx">全选</span>
+                                        </div> 商品信息
+                                    </th>
+                                    <th class="price">单价（元）</th>
+                                    <th class="nub">数量</th>
+                                    <th class="disbursements">实付款（元）</th>
+                                    <th class="trade_operate">交易操作</th>
+                                </tr>
+                            </thead>
+                        </table>
+
+                        <!-- <table class="myCar_tableBd" width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr class="myCar_bdTr">
+                                <td class="select_td">
+                                    <div class="select-all">
+                                        <div class="checkBox-order checkBox-order-selected">
+                                            <input class="checkBox" type="checkbox" name="" value="false">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="baobei">
+                                    <a href="" class="activity_pic">
+                                        <img width="80" height="80" src="../img/product-1.jpg" alt="">
+                                    </a>
+                                    <div class="orderItems_content">
+                                        <div class="orderItems_link">
+                                            <a target="_blank" href="">【新品上市】爱奇艺电视果5S PLUS</a>
+                                        </div>
+
+                                        <div class="orderItems_about">
+                                            <p class="info_section">
+                                                <span class="tx-inline">人工智能看电视</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="price">
+                                    <div class="price_inner">
+                                        <em class="price-now">299</em>
+                                    </div>
+                                </td>
+
+                                <td class="nub">
+                                    <div class="nub_inner">
+                                        <div class="nub_innItem">
+                                            <span class="mod-amount">
+                                                <input type="text" class="amount-input" value="1" maxlength="8">
+                                                <span class="amount-btn">
+                                                    <span class="amount-increase" ></span>
+                                            <span class="amount-decrease"></span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="disbursements">
+                                    <div class="disbursements_inner">
+                                        <em class="sumItems_price">299</em>
+                                    </div>
+                                </td>
+                                <td class="trade_operate">
+                                    <div class="trade_operateInner">
+                                        <div class="operateItems">
+                                            <a href="" class="toFav">移入收藏夹</a>
+                                        </div>
+                                        <div class="operateItems">
+                                            <a href="" class="del">删除</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table> -->
+                    </div>
+
+                    <div class="mod-orderSumBar_box">
+                        <div class="mod-orderSumBar clear">
+                            <div class="orderSumBar_operations">
+                                <div class="orderSumBar_check">
+                                    <div class="orderSumBar_inner">
+                                        <div class="select-all">
+                                            <div class="checkBox-order">
+                                                <input class="checkBox" type="checkbox" name="" value="">
+
+                                            </div>
+                                            <span class="tx">全选</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="orderSumBar_btns">
+                                    <div class="orderSumBar_inner">
+                                        <a href="" class="btn-normal">删除</a>
+                                        <a href="" class="btn-normal">移入收藏夹</a>
+                                        <a href="" class="btn-normal">分享</a>
+                                        <a href="" class="btn-normal">清空购物车</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="orderSumBar_clear">
+                                <div class="amount-sum">
+                                    <span class="tx">已选商品</span>
+                                    <em class="num">0</em>件
+                                </div>
+                                <div class="price-sum">
+                                    <span class="tx">合计（不含运费）：</span>
+                                    <em class="price">¥<span id="J_total-price">0</span></em>
+                                </div>
+                                <div class="shop-submit">
+                                    <a href="" class="btn-submit">结算</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

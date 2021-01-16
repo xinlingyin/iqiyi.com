@@ -1,0 +1,195 @@
+@charset "UTF-8";
+#header {
+    width: 100%;
+    height: 97px;
+    // background: palegreen;
+    margin-bottom: 20px;
+    .header_main {
+        width: 1200px;
+        height: 97px;
+        margin: 0 auto;
+        // background: palegreen;
+        .logo {
+            float: left;
+            // display: inline-block;
+            margin-top: 30px;
+            img {
+                width: 216px;
+                height: 60px;
+            }
+        }
+        .search {
+            // width: 664px;
+            height: 60px;
+            padding-left: 154px;
+            float: left;
+            margin: 37px 0 0;
+            // position: relative;
+            .search_inp {
+                width: 510px;
+                border: 1px solid #ee394b;
+                height: 34px;
+                position: relative;
+                z-index: 3000;
+                float: left;
+                .text {
+                    width: 400px;
+                    border: 0;
+                    background: #fff;
+                    font-size: 12px;
+                    padding-left: 10px;
+                    color: #999;
+                    height: 14px;
+                    line-height: 14px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    outline: 0;
+                    float: left;
+                }
+                .btn {
+                    width: 100px;
+                    color: #fff;
+                    border: 0;
+                    background: #eb3b4a;
+                    font-size: 20px;
+                    height: 34px;
+                    margin: 0;
+                    float: right;
+                    outline: 0;
+                }
+            }
+            .search_nav {
+                width: 518px;
+                height: 24px;
+                color: #c7c7c7;
+                margin-left: -8px;
+                li {
+                    float: left;
+                    height: 24px;
+                    a {
+                        font-size: 12px;
+                        padding: 0 10px;
+                        line-height: 24px;
+                        border-right: 1px solid #c7c7c7;
+                    }
+                    a:hover {
+                        color: #ee394b;
+                    }
+                }
+            }
+        }
+        .header_right {
+            width: 209px;
+            height: 50px;
+            float: right;
+            margin-top: 30px;
+            ul {
+                position: relative;
+                li {
+                    width: 160px;
+                    overflow: hidden;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    a {
+                        width: 50px;
+                        height: 50px;
+                        float: left;
+                        img {
+                            width: 50px;
+                            height: 50px;
+                            margin-right: 10px;
+                        }
+                    }
+                    p {
+                        // display: inline-block;
+                        float: left;
+                        b {
+                            width: 100px;
+                            height: 20px;
+                            color: #999;
+                            display: block;
+                            font-size: 12px;
+                            line-height: 20px;
+                        }
+                        span {
+                            display: inline-block;
+                            width: 100px;
+                            height: 20px;
+                            color: #666;
+                            font-size: 12px;
+                            line-height: 20px;
+                        }
+                    }
+                }
+                .top1 {
+                    display: none;
+                }
+            }
+        }
+        .arrow {
+            float: right;
+            margin: -19px 0 0 10px;
+            width: 39px;
+            height: 19px;
+            position: absolute;
+            top: 50px;
+            right: 0;
+            text-align: center;
+            background: url(../img/arrow2.gif) no-repeat;
+            cursor: pointer;
+            .arrow_left {
+                // display: block;
+                width: 20px;
+                height: 20px;
+                // opacity: 0;
+                font-size: 16px;
+            }
+            .arrow_right {
+                // opacity: 0;
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+
+    .progressBar {
+        width: 386px;
+        float: right;
+        display: inline;
+        .step_txtList {
+            padding-top: 25px;
+            color: #999;
+            >li {
+                float: left;
+                width: 96px;
+                text-align: center;
+                font-size: 14px;
+                font-family: "\5FAE\8F6F\96C5\9ED1";
+            }
+        }
+        .step_1 li:nth-child(1) {
+            color: #ff7b7e;
+            font-size: 15px;
+        }
+        .stepBar {
+            margin-top: 10px;
+            background-image: url(../img/def_grey_step.png);
+            background-repeat: no-repeat;
+            height: 30px;
+            position: relative;
+            z-index: 0;
+            .nonceStep {
+                height: 30px;
+                background-image: url(../img/sel_red_step.png);
+                background-repeat: no-repeat;
+                position: absolute;
+                top: 0;
+                z-index: 5;
+                width: 25%;
+            }
+            
+            
+        }
+    }
+}

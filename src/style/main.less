@@ -1,0 +1,68 @@
+@charset "UTF-8";
+// 品牌精选
+#main {
+    width: 1200px;
+    // height: 332px;
+    margin: 0 auto;
+    padding: 15px 0 0;
+    background: honeydew;
+    #show_title {
+        height: 36px;
+        width: 100%;
+        
+        .new_left {
+            width: 1140px;
+            height: 36px;
+            float: left;
+           
+            
+            .sapn2 {
+                font-size: 28px;
+                color: #333;
+                margin: 0 10px;
+            }
+            .sapn3 {
+                color: #c2c2c2;
+                margin: 0 0 4px;
+                padding: 0 10px;
+                font-size: 16px;
+                border-left: 1px solid #c2c2c2;
+            }
+        }
+    }
+    .brand {
+        width: 1200px;
+        height: 240px;
+        margin: 10px 0 0;
+        // background: wheat;
+        position: relative;
+        .pp {
+            // overflow: hidden;
+            height: 240px;
+            position: relative;
+            box-sizing: border-box;
+            li {
+                // opacity: 0;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 1200px;
+                margin-left: -1px;
+                overflow: hidden;
+                border-left: 1px solid #e5e5e5;
+                border-top: 1px solid #e5e5e5;
+                .item {
+                    float: left;
+                    img {
+                        box-sizing: border-box;
+                        display: block;
+                        width: 120px;
+                        height: 120px;
+                        border-bottom: 1px solid #e5e5e5;
+                        border-right: 1px solid #e5e5e5;
+                    }
+                }
+            }
+        }
+    }
+}

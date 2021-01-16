@@ -1,0 +1,373 @@
+@charset "UTF-8";
+#shopCar {
+    background: #fafafa;
+    border-top: 1px solid#e7e7e7;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    >.main {
+        border: 1px solid #e7e7e7;
+        background: #fff;
+        width: 938px;
+        margin: 0 auto;
+        padding: 20px;
+        .page-order {
+            width: 100%;
+            font-size: 12px;
+            line-height: 20px;
+            .mod-pageHeader {
+                height: 38px;
+                line-height: 35px;
+                border-bottom: 1px solid #e7e7e7;
+                margin-bottom: 16px;
+                position: relative;
+                .pageHeader_headline {
+                    height: 98%;
+                    margin-right: 36px;
+                    float: left;
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #3c3c3c;
+                    font-family: "\5FAE\8F6F\96C5\9ED1";
+                    border-bottom: 2px solid #ee394b;
+                }
+            }
+            .myCar_tableHd {
+                table-layout: fixed;
+                width: 100%;
+                height: 38px;
+                line-height: 38px;
+                border-collapse: collapse;
+                border: 1px solid #e7e7e7;
+                background: #f7f7f7;
+                th.baobei, 
+                th.price, 
+                th.nub, 
+                th.disbursements, 
+                th.trade_operate {
+                    font-size: 12px;
+                }
+                th.baobei .select-all {
+                    // display: inline-block;
+                    vertical-align: middle;
+                    float: left;
+                    font-size: 0;
+                    .checkBox-order {
+                        margin-left: 10px;
+                        margin-right: 10px;
+                        display: inline-block;
+                        width: 20px;
+                        height: 20px;
+                        overflow: hidden;
+                        position: relative;
+                        vertical-align:baseline;
+                    }
+                    >.tx {
+                        font-size: 12px;
+                        vertical-align: baseline;
+                        color: #3c3c3c;
+                        font-family: Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
+                    }
+                   
+                }
+                .baobei {
+                    width: 420px;
+                    
+                }
+
+            }
+            
+            .myCar_tableBd {
+                margin-top: 20px;
+            
+                .myCar_bdTr{
+                    background: #fff7f7;
+                >td {
+                    padding: 10px 5px;
+                    text-align: center;
+                    border-top: 1px solid #e7e7e7;
+                    vertical-align: middle;
+                    font-size: 0;
+                    overflow: hidden;
+                }
+                >td.select_td {
+                    border-left: 1px solid #e7e7e7;
+                    border-bottom: 1px solid #e7e7e7;
+                   
+                    // width: 30px;
+                    >.select-all {
+                        display: inline-block;
+                        vertical-align: top;
+                        .checkBox-order {
+                            margin-left: -8px;
+                            margin-right: 0;
+                            z-index: 10;
+                            
+                        }
+                    }
+                }
+                >td.baobei {
+                    text-align: left;
+                    padding-left: 0;
+                    padding-right: 0;
+                    border-bottom: 1px solid #e7e7e7;
+                    .activity_pic {
+                        // display: inline-block;
+                        width: 80px;
+                        height: 80px;
+                        margin-right: 10px;
+                        vertical-align: top;
+                        float: left;
+
+                    }
+                    .orderItems_content {
+                        overflow: hidden;
+                        font-size: 12px;
+                        position: relative;
+                        height: 80px;
+                        .orderItems_link {
+                            line-height: 14px;
+                            height: 28px;
+                            margin-bottom: 4px;
+                            a {
+                                color: #3c3c3c;
+                                display: inline-block;
+                            }
+                        }
+                        .orderItems_about {
+                            line-height: 14px;
+                            color: #999;
+                            .info_section {
+                                max-height: 30px;
+                                overflow: hidden;
+                                span:hover{
+                                    color: #999;
+                                    cursor: default;
+                                }
+                                .tx-inline {
+                                    padding-right: 5px;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+                >td.price {
+                    width: 101px;
+                    margin-left: 0;
+                    overflow: inherit;
+                    vertical-align: top;
+                    border-bottom: 1px solid #e7e7e7;
+                    .price_inner {
+                        width: 101px;
+                        height: 20px;
+                        line-height: 20px;
+                        .price-now {
+                            color: #333;
+                            font-size: 12px;
+                            display: inline-block;
+                        }
+                    }
+                }
+                >td.nub {
+                    font-size: 12px;
+                    vertical-align: top;
+                    text-align: right;
+                    border-bottom: 1px solid #e7e7e7;
+                    width: 132px;
+                    .nub_innItem {
+                        display: inline-block;
+                        background: #fff;
+                        .mod-amount {
+                            display: inline-block;
+                            font-size: 0;
+                            vertical-align: middle;
+                            .amount-input {
+                                width: 58px;
+                                height: 28px;
+                                margin-right: 2px;
+                                border: 1px solid #999;
+                                
+                                text-align: center;
+                                font-size: 12px;
+                                color: #3c3c3c;
+                                outline: 0;
+                                vertical-align: top;
+                            }
+                            .amount-btn {
+                                display: inline-block;
+                                width: 20px;
+                                height: 30px;
+                                vertical-align: top;
+                                .amount-increase {
+                                    background-position: -160px -22px;
+                                    margin-bottom: 2px;
+                                    float: left;
+                                }
+                                .amount-decrease {
+                                    background-position: -180px -66px;
+                                    cursor: default;
+                                }
+                                .amount-increase, 
+                                .amount-decrease {
+                                    display: inline-block;
+                                    width: 20px;
+                                    height: 14px;
+                                    background-image: url(../img/detail_icon4.png);
+                                    background-repeat: no-repeat;
+                                    vertical-align: top;
+                                    cursor: pointer;
+                                }   
+                           }
+                        }
+                    }
+                }
+                >td.disbursements {
+                    border-bottom: 1px solid #e7e7e7;
+                    vertical-align: top;
+                    width: 162px;
+                    .sumItems_price {
+                        font-size: 18px;
+                        color: #ee394b;
+                    }
+                }
+                >td.trade_operate {
+                    border-right: 1px solid #e7e7e7;
+                    border-bottom: 1px solid #e7e7e7;
+                    vertical-align: top;
+                    width: 92px;
+                    a {
+                        color: #333;
+                        font-size: 12px;
+                        &:hover{
+                            color: #ee394b;
+                        }
+                    }
+                }
+                }
+            }
+            .mod-orderSumBar_box {
+                height: 59px;
+                margin-top: 10px;
+                .mod-orderSumBar {
+                    width: 936px;
+                    height: 58px;
+                    background: #f7f7f7;
+                    border: 1px solid #e7e7e7;
+                    .orderSumBar_operations {
+                        width: 380px;
+                        float: left;
+                        .orderSumBar_check {
+                            width: 85px;
+                            height: 100%;
+                            float: left;
+                            .orderSumBar_inner {
+                                padding-top: 20px;
+                                .select-all {
+                                    font-size: 0;
+                                    line-height: 20px;
+                                    .checkBox-order {
+                                        margin-left: 10px;
+                                        margin-right: 10px;
+                                        display: inline-block;
+                                        width: 20px;
+                                        height: 20px;
+                                        overflow: hidden;
+                                        position: relative;
+                                        vertical-align: middle;
+    
+                                        // .checkBox {
+                                        //     
+                                        // }
+                                    }
+                                    .tx {
+                                        font-size: 12px;
+                                        vertical-align: middle;
+                                        color: #3c3c3c;
+                                        font-family: Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
+                                    }
+                                }
+                            }
+                        }
+                        .orderSumBar_btns {
+                            overflow: hidden;
+                            height: 100%;
+                            .orderSumBar_inner {
+                                padding-top: 20px;
+                                >.btn-normal {
+                                    display: inline-block;
+                                    white-space: nowrap;
+                                    min-width: 48px;
+                                    height: 22px;
+                                    line-height: 22px;
+                                    text-align: center;
+                                    margin: 5px;
+                                    // border: 1px solid #ccc;
+                                    color: #3c3c3c;
+                                    &:hover{
+                                        color: #ee394b;
+                                    }
+                                    
+                                }
+                            }
+                        }
+                    }
+                    .orderSumBar_clear {
+                        width: 550px;
+                        float: right;
+                        text-align: right;
+                        line-height: 58px;
+                        font-family: Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
+                        position: relative;
+                        z-index: 100;
+                        .amount-sum{
+                            display: inline-block;
+                            margin-right: 15px;
+                            .num {
+                                color: #ee394b;
+                                font-weight: 700;
+                            }
+
+                        }
+                        .price-sum{
+                            display: inline-block;
+                            margin-right: 15px;
+                            >.tx {
+                                margin-right: 5px;
+                            }
+                            >.price {
+                                font-size: 18px;
+                                color: #ee394b;
+                                font-family: arial;
+                            }
+                        }
+                        .shop-submit{
+                            display: inline-block;
+                            margin-right: 10px;
+                            >.btn-submit {
+                                display: inline-block;
+                                width: 120px;
+                                height: 38px;
+                                background: #e7e7e7;
+                                color: #666;
+                                border-radius: 3px;
+                                font-family: "\5FAE\8F6F\96C5\9ED1";
+                                cursor: default;
+                                font-size: 18px;
+                                line-height: 38px;
+                                text-align: center;
+                            }
+                            .active{
+                                background-color: #ee394b;
+                                color: #fff;
+                            }
+                        }
+                        span:hover{
+                            color: #3c3c3c;
+                            cursor: default;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
